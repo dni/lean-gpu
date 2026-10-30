@@ -1,0 +1,14 @@
+name = "LeanGpu"
+version = "0.1.0"
+defaultTargets = ["LeanGpu"]
+
+[leanOptions]
+relaxedAutoImplicit = false
+
+[[lean_lib]]
+name = "LeanGpu"
+
+# Tactic tests: `lake build Test` (needs `make -C gpu` on a cache miss)
+[[lean_lib]]
+name = "Test"
+srcDir = "test"

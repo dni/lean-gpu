@@ -1,0 +1,5 @@
+.lake/
+gpu/build/
+.farkas/pending.txt
+.farkas/query-*
+__pycache__/
